@@ -1,0 +1,6 @@
+# titanic-project-1
+My first attempt at Kaggle's Titanic survivor prediction project! All data comes from the Kaggle competition page: https://www.kaggle.com/competitions/titanic/overview
+
+In this first attempt at the project, after some initial data exploration, it appeared that there was a strong correlation between a few of the features and the target labels. I decided to instantiate and fit a machine learning classifier model on only that handful of features and see how the model scored. After some hyperparameter tuning, this minimalistic model scored well on the validation set (~82% accuracy), but was beneath my target score of >90%. Regardless, I used the model (which ended up being a RandomForestClassifier) to make predictions on the test set, which scored a little lower (~77%).
+
+As a first attempt at the project, and my first machine learning workflow I have completed on my own (i.e. not following along with a tutorial), I can say that I learned a lot from the project as well as gained confidence in my new machine learning/data analysis skills. I look forward to revisiting this project in the future when I have honed my skills a little more, and I look forward to taking part in other competitions as well.
